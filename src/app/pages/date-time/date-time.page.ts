@@ -8,13 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class DateTimePage implements OnInit {
 
   fechaNaci:Date= new Date();
-  customPicketOptions;
+  customPickerOptions;
   customDate;
 
   constructor() { }
 
   ngOnInit() {
-    this.customPicketOptions ={
+    this.customPickerOptions ={
       buttons: [{
         text: 'save',
         handler: ()=> console.log('Clicked Save!')
