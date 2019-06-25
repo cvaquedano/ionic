@@ -15,7 +15,8 @@ export class DateTimePage implements OnInit {
   }
 
   cambioFecha(event){
-    console.log(event)
+    console.log(event);
+    console.log(new Date(event.detail.value));
   }
 
 }
