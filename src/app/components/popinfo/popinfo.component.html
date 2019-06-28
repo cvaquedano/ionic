@@ -1,3 +1,6 @@
-<p>
-  popinfo works!
-</p>
+<ion-list>
+  <ion-item *ngFor="let item of items; let i = index;" detail
+  (click)="onclick( i + 1 )">
+    <ion-label>item {{1+i}}</ion-label>
+  </ion-item>
+</ion-list>
