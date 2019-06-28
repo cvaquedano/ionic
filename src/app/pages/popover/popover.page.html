@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar color="primary">
+   <ion-buttons slot="start">
+      <ion-back-button text='Atras' defaultHref='/'></ion-back-button>
+   </ion-buttons>
+    <ion-title>popover</ion-title>
+    <ion-buttons slot="end">
+       <ion-button (click)="mostrarPop()">
+        <ion-icon slot="icon-only" name="contact"></ion-icon>
+       </ion-button>
+      </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-button expand="full" (click)="mostrarPop()">
+        <ion-icon slot="icon-only" name="contact"></ion-icon>
+       <ion-label>Popever</ion-label>
+      </ion-button>
+</ion-content>
+<ion-footer>
+    <ion-toolbar color="primary">
+         <ion-title>footer</ion-title>
+         <ion-buttons slot="start">
+            <ion-button (click)="mostrarPop()">
+             <ion-icon slot="icon-only" name="contact"></ion-icon>
+            </ion-button>
+           </ion-buttons>
+       </ion-toolbar>
+</ion-footer>
