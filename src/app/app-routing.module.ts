@@ -24,6 +24,7 @@ const routes: Routes = [
   { path: 'refresher', loadChildren: './pages/refresher/refresher.module#RefresherPageModule' },
   { path: 'searchbar', loadChildren: './pages/searchbar/searchbar.module#SearchbarPageModule' },
   { path: 'segment', loadChildren: './pages/segment/segment.module#SegmentPageModule' },
+  { path: 'slide', loadChildren: './pages/slide/slide.module#SlidePageModule' },
 ];
 
 @NgModule({
