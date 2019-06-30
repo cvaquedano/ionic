@@ -102,5 +102,10 @@
     "icon": "albums",
     "name": "Slides",
     "redirectTo": "/slide"
+  },
+  {
+    "icon": "cog",
+    "name": "Tabs",
+    "redirectTo": "/tabs/account"
   }
 ]
